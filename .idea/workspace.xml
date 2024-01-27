@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GProgLernen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/Balance_Listenmitte_BeideSummenSelbe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/Liste_LinksOderRechts_Ausgeben.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/Spanne_Liste_vonZahlZuZahl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Middle_String_Ausgabe_MittleresZeichen.java" afterDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/Notes/Array/ArrayBeispiele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +56,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notes/Liste" />
+      <recent name="$PROJECT_DIR$/Notes/Array" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ToSort" />
       <recent name="$PROJECT_DIR$/Notes" />
     </key>
   </component>
@@ -77,12 +73,35 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="9749000" />
+      <workItem from="1706347983412" duration="11542000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1706359081149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706359081149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
