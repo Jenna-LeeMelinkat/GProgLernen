@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.Personen;
 
 import java.util.*;
 
@@ -6,16 +6,16 @@ import java.util.*;
  * 
  * ## Bestimmung beliebter Vornamen
  * 
- * Gegeben sei die Klasse `ZweiKlassen.Person`. Eine `ZweiKlassen.Person` hat
+ * Gegeben sei die Klasse `ZweiKlassen.Personen.Person`. Eine `ZweiKlassen.Personen.Person` hat
  * 
  * - einen Vornamen,
  * - und einen Nachnamen.
  * 
- * Wie `ZweiKlassen.Person`en angelegt und ausgegeben werden können,
+ * Wie `ZweiKlassen.Personen.Person`en angelegt und ausgegeben werden können,
  * lässt sich den Beispielen in der `main()`-Methode entnehmen.
  * 
  * 1. Entwicklen Sie nun bitte eine Methode `countNames()`, die
- *    die Häufigkeit aller Vornamen in einer Liste von `ZweiKlassen.Person`en
+ *    die Häufigkeit aller Vornamen in einer Liste von `ZweiKlassen.Personen.Person`en
  *    bestimmt.
  * 2. Entwickeln Sie ferner eine Methode `mostPopularNames()`
  *    die aus einer Liste von `Personen die beliebtesten Vornamen

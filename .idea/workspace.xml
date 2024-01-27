@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="Array einfache Beispiele hinzugefügt">
-      <change afterPath="$PROJECT_DIR$/Notes/Liste/Liste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes/Map/Mappi.java" afterDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="einfache Beispiele für Maps und Listen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/EmbedCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/EmbedCenter___StringInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/EndUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/EndUp__letzteZeichenGroß.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Würfel/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainDice___Math_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Würfel/MainDice___Math_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainPerson____WieOftNamen__MostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/MainRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TShirts/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainTuple_____ListXListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TupleListen/MainTuple_____ListXListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TShirts/Shirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TupleListen/Tuple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +68,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notes/String" />
       <recent name="$PROJECT_DIR$/Notes/Liste" />
       <recent name="$PROJECT_DIR$/Notes/Array" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ToSort" />
-      <recent name="$PROJECT_DIR$/Notes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +85,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="12180000" />
+      <workItem from="1706347983412" duration="14979000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -90,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706360964191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="einfache Beispiele für Maps und Listen">
+      <created>1706361834314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706361834315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="einfache Beispiele für Maps und Listen">
+      <created>1706361907115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706361907115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +135,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="Array einfache Beispiele hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array einfache Beispiele hinzugefügt" />
+    <MESSAGE value="einfache Beispiele für Maps und Listen" />
+    <option name="LAST_COMMIT_MESSAGE" value="einfache Beispiele für Maps und Listen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

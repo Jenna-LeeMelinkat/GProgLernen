@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Zeichenketten formatieren mit `endUp()`
@@ -19,18 +19,21 @@ package ToSort;
  * - Der Einsatz der Kontrollanweisung `if` kann hilfreich sein.
  *
  */
-class EndUp {
+class EndUp__letzteZeichenGroß {
 
     public static String endUp(String s) {
-        int sLength = s.length();
-        if (sLength > 3) {
-            String firstPart = s.substring(0,sLength - 3);
-            String secondPart = s.substring(sLength - 3,sLength);
-            String secondPartUpperCase = secondPart.toUpperCase();
-            return firstPart + secondPartUpperCase;
-        } else {
-            return s.toUpperCase();
+        int laenge = s.length();
+        if (laenge < 3) {
+            if (s.isEmpty() || s.isBlank() || s == null) {
+                return "";
+            } else {
+                return s.toUpperCase();
+            }
+
         }
+        String first = s.substring(0,laenge - 3);
+        String end = s.substring(laenge - 3).toUpperCase();
+        return first + end;
     }
 
     public static void main(String[] args) {

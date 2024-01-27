@@ -1,4 +1,6 @@
-package ZweiKlassen;
+package ZweiKlassen.Würfel;
+
+import ZweiKlassen.Dice;
 
 import java.util.List;
 import java.util.Map;

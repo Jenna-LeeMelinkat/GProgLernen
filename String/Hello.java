@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Hello World
@@ -19,14 +19,14 @@ package ToSort;
  */
 class Hello {
 
-    public static String hello(String name) {
-        String trimmedName = name.trim();
-
-        if (trimmedName.isEmpty()) {
+    public static String hello(String s) {
+        s = s.trim();
+        if (s.isEmpty() || s.isBlank() || s == null) {
             return "Hello!";
         } else {
-            return "Hello " + trimmedName + "!";
+            return "Hello " + s + "!";
         }
+
     }
 
     public static void main(String[] args) {

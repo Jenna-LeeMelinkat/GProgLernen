@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.Personen;
 
 // Gegeben, nicht durch Sie anzupassen!
 // Alle Änderungen werden durch den Evaluator überschrieben!

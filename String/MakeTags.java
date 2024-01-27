@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## HTML (und andere) Tags erzeugen
@@ -25,13 +25,15 @@ package ToSort;
  */
 class MakeTags {
 
-    public static String makeTags(String tag, String content) {
-        String trimmedTag = tag.trim();
-        if (trimmedTag == null || trimmedTag.isEmpty()) {
-            return content.trim();
+    public static String makeTags(String tag, String s) {
+        s = s.trim();
+        tag = tag.trim();
+
+        if (tag.isEmpty() || tag.isBlank() || tag == null) {
+            return s;
         } else {
-            String tagK = tag.toLowerCase().trim();
-            return "<" + tagK + ">" + content.trim() + "</" + tagK + ">";
+            return "<" + tag.toLowerCase() + ">" + s + "</" + tag.toLowerCase() + ">";
+
         }
     }
 

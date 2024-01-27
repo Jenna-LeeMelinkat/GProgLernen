@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.Würfel;
 
 class Dice {
 

@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.Räume;
 
 public class Room {
     public int geb;

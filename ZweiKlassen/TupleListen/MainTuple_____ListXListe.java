@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.TupleListen;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,12 +8,12 @@ import java.util.List;
  * ## Combinations
  * Entwickeln Sie nun bitte eine Methode `combine()`,
  * die aus zwei Listen von Zeichenketten, alle paarweisen
- * Kombinationen als Liste von `ZweiKlassen.Tuple`n erzeugt.
+ * Kombinationen als Liste von `ZweiKlassen.TupleListen.Tuple`n erzeugt.
  *
- * Auch die Klasse `ZweiKlassen.Tuple` inkl. Konstruktor und `toString()`-
+ * Auch die Klasse `ZweiKlassen.TupleListen.Tuple` inkl. Konstruktor und `toString()`-
  *`Methode ist durch Sie zu entwickeln.
  *
- * Aufrufbeispiele zur Erzeugung von `ZweiKlassen.Tuple`n und
+ * Aufrufbeispiele zur Erzeugung von `ZweiKlassen.TupleListen.Tuple`n und
  * `combine()` finden Sie in der `main()`-Methode.
  * - Achten Sie auf eine sinnvolle Handhabung von `null` Referenzen.
  *
@@ -38,7 +38,7 @@ public class MainTuple_____ListXListe {
     }
 
     public static void main(String[] args) {
-        // ZweiKlassen.Tuple Erzeugung
+        // ZweiKlassen.TupleListen.Tuple Erzeugung
         Tuple t = new Tuple("Hello", "World");
         Tuple r = new Tuple("Hallo", "Welt");
 

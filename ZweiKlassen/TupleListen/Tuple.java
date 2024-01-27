@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.TupleListen;
 
 public class Tuple {
 

@@ -1,4 +1,4 @@
-package ZweiKlassen;
+package ZweiKlassen.TShirts;
 
 public class Shirt {
 
@@ -20,7 +20,7 @@ public class Shirt {
 
 
     public String toString() {
-        return String.format("%ses %s-ZweiKlassen.Shirt", color, size);
+        return String.format("%ses %s-ZweiKlassen.TShirts.Shirt", color, size);
     }
 
 }

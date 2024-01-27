@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Zeichenketten klammern
@@ -18,13 +18,13 @@ package ToSort;
  * - `length()`
  *
  */
-class EmbedCenter {
+class EmbedCenter___StringInString {
 
-    public static String embedCenter(String embed, String payload) {
-        int embedLength = embed.length();
+    public static String embedCenter(String zeichen, String payload) {
+        int embedLength = zeichen.length();
         int center = embedLength / 2;
-        String firstHalf = embed.substring(0, center);
-        String secondHalf = embed.substring(center);
+        String firstHalf = zeichen.substring(0, center);
+        String secondHalf = zeichen.substring(center);
         return firstHalf + payload + secondHalf;
 
     }
