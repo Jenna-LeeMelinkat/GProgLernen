@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Verflixtes Zeichenketten formatieren mit `stringX()`
@@ -18,16 +18,24 @@ package ToSort;
  * - `replaceAll()`
  *
  */
-class StringX {
+class StringX__allXInMitteWeg {
 
     public static String stringX(String s) {
-        int sLength = s.length();
-        if (sLength > 2) {
-            String sWithoutX = s.substring(1, sLength - 1).replaceAll("x", "");
-            String result = s.substring(0, 1) + sWithoutX + s.substring(sLength - 1);
-            return result;
-        } else {
+        if (s == null || s.isEmpty() || s.isBlank()) {
             return s;
+        }
+
+        int length = s.length();
+        if (length <= 2) {
+            return s;
+        } else {
+            String mitte = s.substring(1, length - 1);
+            mitte = mitte.replaceAll("x", "");
+
+            String first = s.substring(0, 1);
+            String end = s.substring(length - 1);
+
+            return first + mitte + end;
         }
     }
 

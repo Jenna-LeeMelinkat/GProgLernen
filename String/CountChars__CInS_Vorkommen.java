@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Zeichen zählen
@@ -19,14 +19,19 @@ package ToSort;
  * - `replaceAll()`
  *
  */
-class CountChars {
+class CountChars__CInS_Vorkommen {
 
-    public static int countChars(char c, String s) {
-        String upperS = s.toUpperCase();
-        char upperC = Character.toUpperCase(c);
-        String sWithoutC = upperS.replaceAll(String.valueOf(upperC), "");
-        int result = s.length() - sWithoutC.length();
-        return result;
+    public static Integer countChars(char c, String s) {
+        int laenge = s.length();
+
+        s = s.toLowerCase();
+        String str = Character.toString(c);
+        str = str.toLowerCase();
+
+        String sOhneC = s.replaceAll(str,"");
+        int count = laenge - sOhneC.length();
+
+        return count;
     }
 
     public static void main(String[] args) {

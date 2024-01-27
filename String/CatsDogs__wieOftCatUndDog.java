@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  *  ## Cats and Dogs
@@ -15,16 +15,19 @@ package ToSort;
  * Challenge: Lösen Sie die Aufgabe OHNE Schleifen.
  *
  */
-class CatsDogs {
+class CatsDogs__wieOftCatUndDog {
 
-    public static boolean catsDogs(String s) {
-        int countCats = (s.length() - s.replaceAll("cat", "").length()) / "cat".length();
-        int countDogs = (s.length() - s.replaceAll("dog", "").length()) / "dog".length();
-        if (countCats == 0 || countDogs == 0 || countCats != countDogs) {
+    public static Boolean catsDogs(String s) {
+        int laenge = s.length();
+
+        int cats = laenge - s.replaceAll("cat", "").length();
+        int dogs = laenge - s.replaceAll("dog", "").length();
+
+        if (cats == 0 && dogs == 0) {
             return false;
-        } else {
-            return true;
         }
+
+        return cats == dogs;
     }
 
 

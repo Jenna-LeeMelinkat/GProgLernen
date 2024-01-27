@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="einfache Beispiele für Maps und Listen">
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="Ordnung machen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/EmbedCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/EmbedCenter___StringInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/EndUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/EndUp__letzteZeichenGroß.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Würfel/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainDice___Math_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Würfel/MainDice___Math_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainPerson____WieOftNamen__MostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/MainRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TShirts/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/MainTuple_____ListXListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TupleListen/MainTuple_____ListXListe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TShirts/Shirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/TupleListen/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/CatsDogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToSort/CatsDogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/CountChars__CInS_Vorkommen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/StringX.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/StringX__allXInMitteWeg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="14979000" />
+      <workItem from="1706347983412" duration="17391000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -115,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706361907115</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ordnung machen">
+      <created>1706365204764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706365204764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ordnung machen">
+      <created>1706365240783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706365240783</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +140,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Array einfache Beispiele hinzugefügt" />
     <MESSAGE value="einfache Beispiele für Maps und Listen" />
-    <option name="LAST_COMMIT_MESSAGE" value="einfache Beispiele für Maps und Listen" />
+    <MESSAGE value="Ordnung machen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ordnung machen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
