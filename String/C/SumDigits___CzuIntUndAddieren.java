@@ -1,4 +1,4 @@
-package ToSort;
+package String.C;
 
 /**
  * ## Summiere alle Ziffern in einer Zeichenkette
@@ -15,18 +15,20 @@ package ToSort;
  * - Die Java-Methode `int Integer.parseInt(String)` konvertiert eine 
  *   Zeichenkette in einen `int`-Wert (z.B. "101" -> 101).
  */
-public class SumDigits {
+public class SumDigits___CzuIntUndAddieren {
 
-    public static int sumDigits(String str) {
-        int sum = 0;
+    public static Integer sumDigits(String s) {
+        int ergebnis = 0;
 
-        for (char c : str.toCharArray()) {
+        char[] cA = s.toCharArray();
+
+        for (char c : cA) {
             if (Character.isDigit(c)) {
-                sum += Character.getNumericValue(c);
+                ergebnis += Character.getNumericValue(c);
             }
         }
 
-        return sum;
+        return ergebnis;
     }
 
     public static void main(String[] args) {
