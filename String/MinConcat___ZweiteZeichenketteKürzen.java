@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  *  ## Zeichenketten aneinander hängen
@@ -14,21 +14,19 @@ package ToSort;
  * Beispielaufrufe finden Sie in der `main()`-Methode.
  *
  */
-class MinConcat {
+class MinConcat___ZweiteZeichenketteKürzen {
 
     public static String minConcat(String a, String b) {
-        int aLength = a.length();
-        int bLength = b.length();
-        if (aLength < bLength) {
-            String shortB = b.substring(bLength - aLength);
-            return a + shortB;
-        } else if (bLength < aLength) {
-            String shortA = a.substring(aLength - bLength);
-            return shortA + b;
-        } else if (aLength == bLength) {
-            return a + b;
+        int aL = a.length();
+        int bL = b.length();
+
+        if (aL < bL) {
+            b = b.substring(bL - aL);
+        } else if (aL > bL) {
+            a = a.substring(aL - bL);
         }
-        return null;
+        return a + b;
+
     }
 
     public static void main(String[] args) {

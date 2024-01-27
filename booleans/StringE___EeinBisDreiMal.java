@@ -1,4 +1,4 @@
-package ToSort;
+package booleans;
 
 /**
  * ## Zeichen in Zeichenketten zählen
@@ -17,16 +17,17 @@ package ToSort;
  * - Nutzen Sie die Vergleichsoperatoren `>` und `<=`.
  *
  */
-class StrinE {
+class StringE___EeinBisDreiMal {
 
-    public static boolean stringE(String s) {
-        int sLength = s.length();
-        String sWithoutE = s.toLowerCase().replaceAll("e","");
-        int sMinusSWE = sLength - sWithoutE.length();
-        if (sMinusSWE >= 1 && sMinusSWE <= 3) {
-            return true;
-        }
-        return false;
+    public static Boolean stringE(String s) {
+        s = s.toLowerCase();
+        int laenge = s.length();
+
+        int sOhneE = s.replaceAll("e", "").length();
+
+        int differenz = laenge - sOhneE;
+
+        return differenz >= 1 && differenz <= 3;
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ToSort;
+package booleans;
 
 /**
  * ## Letzte Ziffer
@@ -14,16 +14,14 @@ package ToSort;
  * - Einen Betrag können Sie mittels `Math.abs()` bestimmen.
  *
  */
-class LastDigit {
+class LastDigit__letzteZifferGleich {
 
-    public static boolean lastDigit(int a, int b) {
-        int lastDigitA = Math.abs(a % 10);
-        int lastDigitB = Math.abs(b % 10);
-        if (lastDigitA == lastDigitB) {
-            return true;
-        } else {
-            return false;
-        }
+    public static Boolean lastDigit(int a, int b) {
+        int lastA = Math.abs(a % 10);
+        int lastB = Math.abs(b % 10);
+
+        return lastA == lastB;
+
     }
     public static void main(String[] args) {
         boolean result = lastDigit(21, 12);

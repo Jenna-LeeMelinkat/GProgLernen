@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="Ordnung machen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/CatsDogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToSort/CatsDogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/CountChars__CInS_Vorkommen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/StringX.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/StringX__allXInMitteWeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/LastDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/LastDigit__letzteZifferGleich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/StrinE.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/StringE___EeinBisDreiMal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="17391000" />
+      <workItem from="1706347983412" duration="19038000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706365240783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ordnung machen">
+      <created>1706367445980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706367445980</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
