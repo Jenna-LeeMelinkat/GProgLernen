@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="StringBeispiele">
-      <change afterPath="$PROJECT_DIR$/List/filterUpTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes/Array/KleinstesElement_2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes/Array/Reverse__Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notes/Array/Reverse__Liste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/DurchschnittlicheWortlaenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Multiplikationstabelle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/shortestWord__SS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="einige Neue Sachen von ihm">
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Listen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Notizen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/String/Middle_String_Ausgabe_MittleresZeichen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainPerson____WieOftNamen__MostPopular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainTuple_____ListXListe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Shirt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Tuple.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="27986000" />
+      <workItem from="1706347983412" duration="28318000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706377461553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="einige Neue Sachen von ihm">
+      <created>1706378268701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378268701</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +210,8 @@
     <MESSAGE value="dividesSelf__Bool_Zahl_Schleife hat 100%" />
     <MESSAGE value="Äpfel neu" />
     <MESSAGE value="StringBeispiele" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBeispiele" />
+    <MESSAGE value="einige Neue Sachen von ihm" />
+    <option name="LAST_COMMIT_MESSAGE" value="einige Neue Sachen von ihm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

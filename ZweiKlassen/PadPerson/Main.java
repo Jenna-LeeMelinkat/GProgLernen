@@ -8,8 +8,9 @@ public class Main {
         Person pc = p.clone();
 
         System.out.println("p:  " + p);
-        System.out.println("pc: " + pc);
         System.out.println("q:  " + q);
+
+        System.out.println("pc: " + pc);
 
         System.out.println("p und pc identisch? " + (p == pc));
         System.out.println("p und pc gleich? " + p.equals(pc));
