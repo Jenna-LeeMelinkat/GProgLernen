@@ -1,4 +1,4 @@
-package ToSort;
+package booleans;
 
 /**
  * ## Tripple in Zeichenketten finden

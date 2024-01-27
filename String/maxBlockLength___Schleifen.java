@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Bestimme die Länge des längsten Blocks
@@ -12,21 +12,23 @@ package ToSort;
  * Aufrufbeispiele finden Sie in der `main()`-Methode.
  *
  */
-public class maxBlcokLength {
+public class maxBlockLength___Schleifen {
 
-    public static int maxBlockLength(String block) {
-        int bLength = block.length();
+    public static int maxBlockLength(String s) {
+        if (s == null || s.isEmpty() || s.isBlank()) {
+            return 0;
+        }
         int count = 1;
-        int currentBlockLength = 1;
+        int aL = 1;
 
-        for (int i = 0; i < bLength - 1; i++) {
-            if (block.charAt(i) == block.charAt(i + 1)) {
-                currentBlockLength++;
-                if (currentBlockLength > count) {
-                    count = currentBlockLength;
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                aL++;
+                if (aL > count) {
+                    count = aL;
                 }
             } else {
-                currentBlockLength = 1;
+                aL = 1;
             }
         }
 

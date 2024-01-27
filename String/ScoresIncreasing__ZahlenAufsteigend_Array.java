@@ -1,4 +1,4 @@
-package ToSort;
+package String;
 
 /**
  * ## Sortierung von Arrays prüfen
@@ -14,19 +14,19 @@ package ToSort;
  * - Sehen Sie sich Arrays in Unit 03 noch einmal an.
  *
  */
-class ScoresIncreasing {
+class ScoresIncreasing__ZahlenAufsteigend_Array {
 
-    public static boolean scoresIncreasing(int[] array) {
+    public static Boolean scoresIncreasing(int[] array) {
         if (array.length == 0) {
             return true;
-        } else {
-            for (int i = 0; i < array.length - 1; i++) {
-                if (array[i] > array[i + 1]) {
-                    return false;
-                }
-            }
-
         }
+
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < array[i - 1]) {
+                return false;
+            }
+        }
+
         return true;
 
     }

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="Ordnung machen">
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="pwdGen ohne StringBuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/umFormungen/Notizen" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/umFormungen/Notizen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/SumDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/C/SumDigits___CzuIntUndAddieren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/pwdGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ToSort/pwdGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/ScoresIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/ScoresIncreasing__ZahlenAufsteigend_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/maxBlcokLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/maxBlockLength___Schleifen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToSort/noMultiples.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/noMultiples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/dividesSeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/dividesSelf__Bool_Zahl_Schleife.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="23942000" />
+      <workItem from="1706347983412" duration="25747000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706371381580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pwdGen ohne StringBuilder">
+      <created>1706373896080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706373896081</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +170,8 @@
     <MESSAGE value="Array einfache Beispiele hinzugefügt" />
     <MESSAGE value="einfache Beispiele für Maps und Listen" />
     <MESSAGE value="Ordnung machen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ordnung machen" />
+    <MESSAGE value="pwdGen ohne StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="pwdGen ohne StringBuilder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

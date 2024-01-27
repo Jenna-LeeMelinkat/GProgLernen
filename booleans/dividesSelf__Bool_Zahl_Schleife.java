@@ -26,9 +26,15 @@ package booleans;
  * - Mittels / 10 können Sie eine Zahl um eine Stelle nach rechts "rausschieben".
  *
  */
-class dividesSeld {
+class dividesSelf__Bool_Zahl_Schleife {
 
     public static boolean dividesSelf(int zahl) {
+        if (zahl < 0) {
+            zahl = Math.abs(zahl);
+        }
+        if (zahl == 0) {
+            return false;
+        }
         int originalNumber = zahl;
 
         while (zahl > 0) {
@@ -39,12 +45,17 @@ class dividesSeld {
             zahl = zahl / 10;
         }
         return true;
+
     }
 
     public static int countDividesSelf(int zahl) {
-        int count = -1;
+        if (zahl <= 0) {
+            return 0;
+        }
 
-        for (int i = 0; i <= zahl; i++) {
+        int count = 0;
+
+        for (int i = 1; i <= zahl; i++) {
             if (dividesSelf(i)) {
                 count++;
             }
