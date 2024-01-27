@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="einige Neue Sachen von ihm">
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Arrays" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Listen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Notizen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/String/Middle_String_Ausgabe_MittleresZeichen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Dice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainPerson____WieOftNamen__MostPopular.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/MainTuple_____ListXListe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Shirt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Tuple.class" beforeDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/umFormungen/Notizen" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/umFormungen/Notizen" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="28318000" />
+      <workItem from="1706347983412" duration="28757000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -184,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706378268701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="joa">
+      <created>1706378538296</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378538296</updated>
+    </task>
+    <task id="LOCAL-00016" summary="joa">
+      <created>1706378555856</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378555857</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +214,8 @@
     <MESSAGE value="Äpfel neu" />
     <MESSAGE value="StringBeispiele" />
     <MESSAGE value="einige Neue Sachen von ihm" />
-    <option name="LAST_COMMIT_MESSAGE" value="einige Neue Sachen von ihm" />
+    <MESSAGE value="joa" />
+    <option name="LAST_COMMIT_MESSAGE" value="joa" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
