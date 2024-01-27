@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="pwdGen ohne StringBuilder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/ScoresIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/ScoresIncreasing__ZahlenAufsteigend_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/maxBlcokLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/maxBlockLength___Schleifen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToSort/noMultiples.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/noMultiples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booleans/dividesSeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/dividesSelf__Bool_Zahl_Schleife.java" afterDir="false" />
-    </list>
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="dividesSelf__Bool_Zahl_Schleife hat 100%" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +70,7 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="25747000" />
+      <workItem from="1706347983412" duration="26564000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -148,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706373896081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dividesSelf__Bool_Zahl_Schleife hat 100%">
+      <created>1706375514205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706375514205</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +172,8 @@
     <MESSAGE value="einfache Beispiele für Maps und Listen" />
     <MESSAGE value="Ordnung machen" />
     <MESSAGE value="pwdGen ohne StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="pwdGen ohne StringBuilder" />
+    <MESSAGE value="dividesSelf__Bool_Zahl_Schleife hat 100%" />
+    <option name="LAST_COMMIT_MESSAGE" value="dividesSelf__Bool_Zahl_Schleife hat 100%" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
