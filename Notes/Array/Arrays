@@ -1,0 +1,70 @@
+1. Eindimensionale Arrays:
+Ein eindimensionales Array ist eine Sammlung von Elementen des gleichen Datentyps, die durch einen Index zugänglich sind.
+
+// Deklaration und Initialisierung eines eindimensionalen Arrays
+int[] numbers = new int[5];
+numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;
+numbers[3] = 4;
+numbers[4] = 5;
+
+
+2. Mehrdimensionale Arrays:
+Mehrdimensionale Arrays sind Arrays, die in Arrays angeordnet sind.
+
+// Deklaration und Initialisierung eines zweidimensionalen Arrays
+int[][] matrix = new int[3][3];
+matrix[0][0] = 1;
+matrix[0][1] = 2;
+// ...
+
+
+3. Deklaration (new Operator und Länge, direkte Angabe mittels {})
+
+// Deklaration und Initialisierung mit dem new-Operator
+int[] array1 = new int[5];
+
+// Deklaration und Initialisierung mittels direkter Angabe
+int[] array2 = {1, 2, 3, 4, 5};
+
+
+4. Indexnotation []:
+Die Indexnotation wird verwendet, um auf Elemente in einem Array zuzugreifen.
+
+int[] numbers = {10, 20, 30, 40, 50};
+int thirdNumber = numbers[2]; // Zugriff auf das dritte Element (Index 2)
+
+
+5. Aus Arrays lesen mittels einem Index
+Um ein Element aus einem Array zu lesen, verwenden Sie die Indexnotation.
+
+int[] numbers = {10, 20, 30, 40, 50};
+int value = numbers[3]; // Liest den Wert an Index 3 (40)
+
+
+6. In Arrays schreiben mittels einem Index
+Um ein Element in einem Array zu schreiben, verwenden Sie ebenfalls die Indexnotation.
+
+int[] numbers = new int[5];
+numbers[0] = 100; // Schreibt den Wert 100 an Index 0
+
+
+7. Loop-in-Loop-Konstrukte für (mehrdimensionale) Arrays
+Loop-in-Loop-Konstrukte, wie verschachtelte for-Schleifen, werden verwendet, um durch mehrdimensionale Arrays zu iterieren.
+
+int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+// Iteration durch ein zweidimensionales Array
+for (int i = 0; i < matrix.length; i++) {
+    for (int j = 0; j < matrix[i].length; j++) {
+        System.out.print(matrix[i][j] + " ");
+    }
+    System.out.println();
+}
+Dieses Beispiel würde die Matrix wie folgt ausgeben:
+
+Copy code
+1 2 3
+4 5 6
+7 8 9

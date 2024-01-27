@@ -1,0 +1,72 @@
+Interface List und Implementierungen ArrayList/LinkedList
+Das List-Interface definiert eine geordnete Sammlung von Elementen, die Duplikate zulässt.
+ArrayList und LinkedList sind Implementierungen des List-Interfaces.
+Beispiel:
+java
+Copy code
+List<String> arrayList = new ArrayList<>();
+List<Integer> linkedList = new LinkedList<>();
+Wichtige Methoden von List
+subList(int fromIndex, int toIndex): Gibt eine Teil-Liste zurück.
+get(int index): Gibt das Element an der angegebenen Position zurück.
+remove(int index): Entfernt das Element an der angegebenen Position.
+add(E element): Fügt das angegebene Element am Ende der Liste hinzu.
+Typische Schleifenkonstrukte für Listen
+Verwendung von for-Schleifen mit Index oder Enhanced for loop:
+java
+Copy code
+for (String element : arrayList) {
+    // Zugriff auf jedes Element
+}
+Wie filtere ich etwas aus Listen?
+Mit Java 8 Stream API und Lambda-Ausdrücken:
+java
+Copy code
+List<String> filteredList = arrayList.stream()
+                                     .filter(element -> element.startsWith("A"))
+                                     .collect(Collectors.toList());
+Mappings
+Ein Mapping ist eine abstrakte Datenstruktur, die Schlüssel-Wert-Paare speichert.
+Das Map-Interface definiert eine Sammlung von Schlüssel-Wert-Paaren.
+TreeMap und HashMap sind Implementierungen des Map-Interfaces.
+Wichtige Methoden von Map
+put(K key, V value): Fügt den angegebenen Schlüssel-Wert-Paar in die Map ein.
+get(Object key): Gibt den Wert zurück, der dem angegebenen Schlüssel zugeordnet ist.
+entrySet(): Gibt eine Ansicht zurück, die die Zuordnung von Schlüsseln zu Werten darstellt.
+keySet(): Gibt eine Ansicht zurück, die die Schlüssel der Map enthält.
+values(): Gibt eine Ansicht zurück, die die Werte der Map enthält.
+Typische Schleifenkonstrukte für Maps
+Verwendung von for-each-Schleifen für Schlüssel, Werte oder Einträge:
+java
+Copy code
+for (Map.Entry<Integer, String> entry : map.entrySet()) {
+    // Zugriff auf Schlüssel und Wert
+}
+Wie gruppiere ich mit Mappings?
+Gruppierung von Elementen anhand bestimmter Kriterien kann durch Iteration und Verwendung von Bedingungen erfolgen:
+java
+Copy code
+Map<Character, List<String>> groupedMap = new HashMap<>();
+for (String str : arrayList) {
+    char firstChar = str.charAt(0);
+    if (!groupedMap.containsKey(firstChar)) {
+        groupedMap.put(firstChar, new ArrayList<>());
+    }
+    groupedMap.get(firstChar).add(str);
+}
+Typsicherheit von Collections <>
+Generics in Java bieten Typsicherheit für Collections, d.h., die Typen von Elementen werden zur Compile-Zeit überprüft.
+Beispiel:
+java
+Copy code
+List<String> strings = new ArrayList<>(); // Nur String-Elemente erlaubt
+Iteratoren (inkl. typischer Schleifenkonstrukte für Iteratoren)
+Iteratoren ermöglichen das Durchlaufen von Elementen in einer Collection.
+Beispiel:
+java
+Copy code
+Iterator<String> iterator = arrayList.iterator();
+while (iterator.hasNext()) {
+    String element = iterator.next();
+    // Zugriff auf jedes Element
+}
