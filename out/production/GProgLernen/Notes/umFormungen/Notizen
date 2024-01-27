@@ -1,0 +1,52 @@
+
+"\\s+" leerzeichen trennung
+-----------------------------------------------
+Char zu String--------------------------------
+
+char c = 'a';
+String str = Character.toString(c);
+
+char c = 'a';
+String str = "" + c;
+
+char c = 'a';
+String str = String.valueOf(c);
+
+char c = 'a';
+String str = new String(new char[]{c});
+
+---------------------------------------------------
+String zu Char-----------------------------------
+
+String str = "Hello";
+char[] charArray = str.toCharArray();
+// String "Hello": ['H', 'e', 'l', 'l', 'o']
+
+String str = "Hello";
+char firstChar = str.charAt(0);
+// letzte Index str.length() - 1
+-------------------------------------------------
+String zu Int--------------------------------------
+
+String str = "123";
+int num = Integer.parseInt(str);
+
+String str = "123";
+Integer num = Integer.valueOf(str);
+
+String str = "123";
+Integer num = new Integer(str);
+
+-------------------------------------------------
+Int zu String-----------------------------------
+
+int num = 123;
+String str = String.valueOf(num);
+
+int num = 123;
+String str = "" + num;
+
+int num = 123;
+String str = Integer.toString(num);
+
+

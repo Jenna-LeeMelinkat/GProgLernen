@@ -1,0 +1,30 @@
+%s: Zeichenketten
+%d: Ganzzahlen (Integer)
+%f: Gleitkommazahlen (Floats oder Doubles)
+%n: Zeilenumbruch
+--------------------------------------------------------------
+int a = 10;
+int b = 3;
+int sum = a + b; // sum enthält 13
+int difference = a - b; // difference enthält 7
+int product = a * b; // product enthält 30
+int quotient = a / b; // quotient enthält 3
+int remainder = a % b; // remainder enthält 1
+
+----------------------------------------------------------------------------------------------------
+Und (&&): Verknüpft zwei Bedingungen und ergibt true, wenn beide Bedingungen wahr sind.
+Oder (||): Verknüpft zwei Bedingungen und ergibt true, wenn mindestens eine Bedingung wahr ist.
+Nicht (!): Negiert eine Bedingung.
+
+boolean condition1 = true;
+boolean condition2 = false;
+boolean result1 = (condition1 && condition2); // result1 enthält false
+boolean result2 = (condition1 || condition2); // result2 enthält true
+boolean result3 = !condition1; // result3 enthält false
+
+---------------------------------------------------------------------------------
+int x = 5;
+int y = 3;
+boolean isEqual = (x == y); // isEqual enthält false
+boolean isGreater = (x > y); // isGreater enthält true
+boolean isLessOrEqual = (x <= y); // isLessOrEqual enthält false
