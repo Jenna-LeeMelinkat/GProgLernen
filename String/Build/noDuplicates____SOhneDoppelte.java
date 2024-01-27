@@ -1,4 +1,4 @@
-package String;
+package String.Build;
 
 /**
  * ## Entferne alle mehrfachen Zeichen in einer Zeichenkette

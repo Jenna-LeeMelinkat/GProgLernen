@@ -1,4 +1,4 @@
-package ToSort;
+package String.Build;
 
 /**
  * ## Zeichenketten verarbeiten mit `everyNth()`
@@ -17,7 +17,7 @@ package ToSort;
  *   haben Sie vermutlich eine Endlosschleife gebaut.
  *
  */
-class EveryNth {
+class EveryNth__StringBuilder_jederNte {
 
     public static String everyNth(String s, int n) {
         if (n <= 0) {

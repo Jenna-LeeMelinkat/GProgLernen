@@ -1,4 +1,4 @@
-package ToSort;
+package String.Build;
 
 /**
  * ## `missingChar()``
@@ -13,10 +13,12 @@ package ToSort;
  * Aufrufbeispiele finden Sie in der `main()`-Methode.
  *
  */
-class MissingChar {
+class MissingChar__SOhneNteC {
 
     public static String missingChar(String s, int n) {
+
         StringBuilder result = new StringBuilder();
+
         for (int i = 0; i < s.length(); i++) {
             if (i != n) {
                 result.append(s.charAt(i));

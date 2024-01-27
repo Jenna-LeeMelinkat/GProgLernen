@@ -1,4 +1,4 @@
-package ToSort;
+package String.C;
 
 /**
  * ## Zeichenketten prüfen mittels `sameStarChar()`
@@ -15,7 +15,7 @@ package ToSort;
  * - Was passiert bspw. bei Zeichenketten wie `"*"`, `"**"` oder `"***"`?
  *
  */
-class SameStarChar {
+class SameStarChar_CLinksRechtsVergleichen {
 
     public static boolean sameStarChar(String str) {
         if (str.length() < 3) {

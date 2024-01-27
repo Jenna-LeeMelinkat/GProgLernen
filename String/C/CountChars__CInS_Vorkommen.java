@@ -1,4 +1,4 @@
-package String;
+package String.C;
 
 /**
  * ## Zeichen zählen

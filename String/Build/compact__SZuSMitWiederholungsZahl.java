@@ -1,4 +1,4 @@
-package String;
+package String.Build;
 
 /**
  * ## Komprimiere alle mehrfachen Zeichen in einer Zeichenkette
