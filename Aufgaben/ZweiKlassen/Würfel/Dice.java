@@ -5,10 +5,12 @@ class Dice {
     int numberGot;
 
     public Dice() {
+
         numberGot = (int) (Math.random() * 6) + 1;
     }
 
     public Dice(int x) {
+
         numberGot = x;
     }
 
