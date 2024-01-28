@@ -16,7 +16,7 @@ import java.util.*;
  * Wenden Sie zur Entwicklung der Methoden gerne unsere Checkliste an.
  *
  */
-public class Main {
+public class MainApple {
 
     // harvest() GENERATOR - PATTERN
     public static List<Apple> harvest(int n) {

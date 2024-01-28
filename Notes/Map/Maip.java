@@ -3,7 +3,7 @@ package Notes.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class Maip {
     public static void main(String[] args) {
         Map<String, Integer> altersMap = new HashMap<>();
 
