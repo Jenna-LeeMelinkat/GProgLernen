@@ -30,9 +30,9 @@ package ZweiKlassen.Räume;
 class MainRoom {
 
     public static void main(String[] args) {
-        Room office = new Room(17, 0, 10);
-        Room lecture = new Room(2, 0, 10);
-        Room lab = new Room(18, 1, 1);
+        Room2 office = new Room2(17, 0, 10);
+        Room2 lecture = new Room2(2, 0, 10);
+        Room2 lab = new Room2(18, 1, 1);
 
         System.out.println(office);  // => "17-0.10"
         System.out.println(lecture); // => " 2-0.10"
