@@ -5,10 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
-      <change afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/Room2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Arrais/LoopLoop2A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/I_B_U_I_L_U_LiI_S_primsUntil__BLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Pi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/schleifen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/Map/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Räume/MainRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/MainRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Räume/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Räume/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/Balance_Listenmitte_BeideSummenSelbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Balance_Listenmitte_BeideSummenSelbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/BlöckeAusZeichenketten__List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/S_L_BlöckeAusZeichenketten__List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/ListeNachGeraden_und_UngeradenOrdnen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/Li_Li_ListeNachGeraden_und_UngeradenOrdnen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/Liste_LinksOderRechts_Ausgeben.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/K_LiIB_Li_Liste_LinksOderRechts_Ausgeben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/SortWords__Map__StringZuSortierteListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/S_Ls__map_SortWords__StringZuSortierteListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/Spanne_Liste_vonZahlZuZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Spanne_Liste_vonZahlZuZahl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/blöckeAusZeichenketten__ListeMitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/S_L_blöckeAusZeichenketten__ListeMitCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/filterUpTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/SI_Ls_filterUpTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/missingWord__ListeOhneNtesWort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/SI_L_missingWord__ListeOhneNtesWort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/wordAppend___Liste_SZumXtenMal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/Ls_S_wordAppend___Liste_SZumXtenMal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/BuchstabenDurchZahlenErsetzen__Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/Topping___MapEintraegeAendern.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/Mss_Mss_Topping___MapEintraegeAendern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/countGroupWordLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Mii_U_S_Mil_countGroupWordLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/wordCount___Map_haeufigkeitSInS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/wordMulitiple___B_KommtCOftVor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/Ls_Msb_wordMulitiple___B_KommtCOftVor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/ArrayBeispiele.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Array/ArrayBeispiele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/KleinstesElement_2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Arrais/A2i_I_KleinstesElement_2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/Reverse__Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Arrais/As_As_Reverse__Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/Reverse__Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Ls_Ls_Reverse__Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Liste/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Liste/Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Liste/Listen" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Liste/Listen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Map/Mappi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Map/Mappi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Operatoren/operas" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Operatoren/operas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/umFormungen/Notizen" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/umFormungen/Notizen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operatoren/AundB_Operatoren.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Operatoren/II_I_AundB_Operatoren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operatoren/PrimZahlen__Bool_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Operatoren/PrimZahlen__Bool_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/EveryNth__StringBuilder_jederNte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/SI_S_EveryNth__StringBuilder_jederNte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/Middle_String_Ausgabe_MittleresZeichen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_Middle_String_Ausgabe_MittleresZeichen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/MissingChar__SOhneNteC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/SI_S_MissingChar__SOhneNteC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/ZipZap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_ZipZap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/compact__SZuSMitWiederholungsZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_compact__SZuSMitWiederholungsZahl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/noDuplicates____SOhneDoppelte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Build/pwdGen__6Dtnndl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_pwdGen__6Dtnndl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/C/CountChars__CInS_Vorkommen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/C/CS_I_CountChars__CInS_Vorkommen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/C/SameStarChar_CLinksRechtsVergleichen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/C/S_B_SameStarChar_CLinksRechtsVergleichen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/C/SumDigits___CzuIntUndAddieren.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/C/S_I_SumDigits___CzuIntUndAddieren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/CatsDogs__wieOftCatUndDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/S_B_CatsDogs__wieOftCatUndDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/CountOccurence__WieOftSInS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/SS_I_CountOccurence__WieOftSInS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/DurchschnittlicheWortlaenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_D_DurchschnittlicheWortlaenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/EmbedCenter___StringInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/SS_S_EmbedCenter___StringInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/EndUp__letzteZeichenGroß.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_S_EndUp__letzteZeichenGroß.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Evaluate_StringAusrechnen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/A_S_D_Evaluate_StringAusrechnen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_S_Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/MakeTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/SS_S_MakeTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/MinConcat___ZweiteZeichenketteKürzen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/SS_S_MinConcat___ZweiteZeichenketteKürzen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Multiplikationstabelle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/II_S_Multiplikationstabelle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/ScoresIncreasing__ZahlenAufsteigend_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Ai_B_ScoresIncreasing__ZahlenAufsteigend_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/StringX__allXInMitteWeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_S_StringX__allXInMitteWeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/maxBlockLength___Schleifen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_I_maxBlockLength___Schleifen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/shortestWord__SS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/S_S_shortestWord__SS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/MainPadPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/PadPerson/MainPadPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/PadPerson/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Personen/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/A_Personen/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Personen/Person____MapMostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/A_Personen/Person____MapMostPopular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Räume/MainRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Räume/MainRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Räume/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Räume/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Räume/Room2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Räume/Room2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/TShirts/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/A_TShirts/MainShirt____VorkommenNachFarben__Liste_Map_String_Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/TShirts/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/A_TShirts/Shirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/TupleListen/MainTuple_____ListXListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/TupleListen/MainTuple_____ListXListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/TupleListen/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/TupleListen/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Würfel/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Würfel/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Würfel/MainDice___Math_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Würfel/MainDice___Math_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Äpfel/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Äpfel/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Äpfel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Äpfel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/KlammerAnfangUndEnde.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/S_B_KlammerAnfangUndEnde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/LastDigit__letzteZifferGleich.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/II_B_LastDigit__letzteZifferGleich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/StringE___EeinBisDreiMal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/S_B_StringE___EeinBisDreiMal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/dividesSelf__Bool_Zahl_Schleife.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/I_I_U_I_B_dividesSelf__Bool_Zahl_Schleife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/noMultiples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/booleans/S_B_U_IS_B_noMultiples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +148,7 @@
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
       <workItem from="1706347983412" duration="28860000" />
-      <workItem from="1706429315164" duration="5062000" />
+      <workItem from="1706429315164" duration="12736000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -211,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706432162646</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="joa">
+      <created>1706444154296</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706444154296</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

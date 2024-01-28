@@ -28,3 +28,43 @@ int y = 3;
 boolean isEqual = (x == y); // isEqual enthält false
 boolean isGreater = (x > y); // isGreater enthält true
 boolean isLessOrEqual = (x <= y); // isLessOrEqual enthält false
+
+
+For-Schleife:
+Verwenden Sie eine for-Schleife,
+wenn Sie wissen, wie oft die Schleife ausgeführt werden soll
+oder wenn Sie über eine sequenzielle Struktur wie ein Array oder eine Liste iterieren.
+Die for-Schleife ist nützlich,
+wenn Sie den Index oder die Position der Elemente benötigen, über die Sie iterieren.
+
+Beispiel: Iteration über ein Array oder eine Liste.
+
+
+While-Schleife:
+Verwenden Sie eine while-Schleife,
+wenn Sie den Schleifenblock so lange ausführen möchten,
+wie eine Bedingung wahr ist, bevor die Schleife beginnt.
+Die while-Schleife eignet sich gut für Fälle, in denen Sie nicht wissen,
+wie oft die Schleife ausgeführt werden soll, sondern nur, solange eine bestimmte Bedingung erfüllt ist.
+
+Beispiel: Ein Benutzer gibt eine Bedingung ein, die erfüllt sein muss, damit die Schleife weiterläuft.
+
+
+Do-While-Schleife:
+Verwenden Sie eine do-while-Schleife,
+wenn Sie sicherstellen möchten, dass der Schleifenblock mindestens einmal ausgeführt wird,
+bevor die Bedingung überprüft wird.
+Die do-while-Schleife ist nützlich,
+wenn Sie möchten, dass der Schleifenblock mindestens einmal ausgeführt wird,
+unabhängig von der Bedingung.
+
+Beispiel: Eine Schleife, die Benutzereingaben verarbeitet und mindestens einmal ausgeführt werden muss,
+bevor eine Bedingung überprüft wird.
+
+
+For-Each-Schleife:
+Verwenden Sie eine erweiterte for-Schleife (auch bekannt als For-Each-Schleife),
+wenn Sie über alle Elemente in einer Collection iterieren möchten, ohne den Index zu benötigen.
+Die erweiterte for-Schleife bietet eine einfache und lesbarere Syntax für die Iteration über Collections.
+
+Beispiel: Iteration über eine Liste, um Elemente anzuzeigen oder zu verarbeiten, ohne den Index zu verwenden.

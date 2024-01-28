@@ -1,8 +1,12 @@
 package Notes.Array;
+import java.util.ArrayList;
 
 import java.awt.image.LookupOp;
 
 public class ArrayBeispiele {
+
+    ArrayList<String> namenListe = new ArrayList<String>();
+
 
 // 1. Eindimensional---------------------------------------------------------------
 

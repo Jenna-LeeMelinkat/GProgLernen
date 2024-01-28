@@ -8,7 +8,7 @@ public class Mappi {
 
     public class MapExample {
         public static void main(String[] args) {
-            // Map-Interface
+            // Aufgaben.Arrais.Map-Interface
             Map<String, Integer> hashMap = new HashMap<>();
             hashMap.put("Eins", 1);
             hashMap.put("Zwei", 2);
@@ -18,11 +18,11 @@ public class Mappi {
 
         //--------------------------------------------------
 
-        // Wert abrufen
+        //get() Wert abrufen
         int value = hashMap.get("Eins");
         System.out.println("Wert für 'Eins': " + value);
 
-        // Eintrag entfernen
+        //remove() Eintrag entfernen
         hashMap.remove("Zwei");
         System.out.println("HashMap nach Entfernen: " + hashMap);
 
@@ -45,7 +45,7 @@ public class Mappi {
                 groupedMap.computeIfAbsent(firstChar, k -> new ArrayList<>()).add(fruit);
             }
 
-            System.out.println("Gruppierte Map: " + groupedMap);
+            System.out.println("Gruppierte Aufgaben.Arrais.Map: " + groupedMap);
 
         }
     }

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class Liste {
     public class ListExample {
         public static void main(String[] args) {
-            // List-Interface
+            // Aufgaben.Arrais.List-Interface
             List<String> arrayList = new ArrayList<>();
             arrayList.add("Apfel");
             arrayList.add("Banane");
@@ -25,6 +25,9 @@ public class Liste {
             //-------------------------------------------------
 
             // Fortsetzung des vorherigen Beispiels
+
+            // Das Element an einem bestimmten Index abrufen
+            String name = arrayList.get(2); // "Charlie"
 
 // SubList erstellen
             List<String> subList = arrayList.subList(0, 1);
