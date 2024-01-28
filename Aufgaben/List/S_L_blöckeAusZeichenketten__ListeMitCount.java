@@ -23,6 +23,8 @@ import java.util.List;
  */
 class S_L_blöckeAusZeichenketten__ListeMitCount {
 
+
+
     public static List<String> compacts(String s) {
         List<String> liste = new ArrayList<>();
         if (s.isEmpty()) {

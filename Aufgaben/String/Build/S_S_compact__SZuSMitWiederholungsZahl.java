@@ -21,6 +21,41 @@ package Aufgaben.String.Build;
 public class S_S_compact__SZuSMitWiederholungsZahl {
 
     public static String compact(String s) {
+
+        if (s == null || s.isEmpty() || s.isBlank()) {
+            return "";
+        }
+
+        int length = s.length();
+        int count = 1;
+
+        StringBuilder ergebnis = new StringBuilder();
+
+        for (int i = 0; i < length; i++) {
+            if (i < length - 1 && s.charAt(i) == s.charAt(i + 1)) {
+                count++;
+            } else {
+                if (count > 1) {
+                    ergebnis.append(s.charAt(i));
+                    ergebnis.append(count);
+                } else {
+                    ergebnis.append(s.charAt(i));
+                }
+                count = 1;
+            }
+        }
+
+        if (count > 1) {
+            ergebnis.append(s.substring(length - count, length));
+        }
+
+
+
+        return ergebnis.toString();
+    }
+    /*
+
+    public static String compact(String s) {
         if (s.isEmpty()) {
             return s;
         }
@@ -47,6 +82,8 @@ public class S_S_compact__SZuSMitWiederholungsZahl {
         return ergebnis.toString();
     }
 
+
+     */
     public static void main(String[] args) {
         String result = compact("123aabbbccc258999oppqrtyyy");
         System.out.println(result); // => 123a2b3c325893op2qrty3

@@ -27,33 +27,33 @@ import java.util.Map;
  */
 class Mss_Mss_Topping___MapEintraegeAendern {
 
-    public static Map<String, String> topping(Map<String, String> ursprungsBestellung) {
-        Map<String, String> neueBestellung = new TreeMap<>();
-        if (ursprungsBestellung.isEmpty() || ursprungsBestellung == null) {
-            return neueBestellung;
+    public static Map<String, String> topping(Map<String, String> mss) {
+        Map<String, String> map = new TreeMap<>();
+        if (mss.isEmpty() || mss == null) {
+            return map;
         }
-        for (String s : ursprungsBestellung.keySet()) {
+        for (String s : mss.keySet()) {
             if (!s.equals("spinach") && !s.equals("yoghurt")) {
-                neueBestellung.put(s, ursprungsBestellung.get(s));
+                map.put(s, mss.get(s));
             }
             if (s.equals("ice cream")) {
-                if (ursprungsBestellung.get("yoghurt") == null || ursprungsBestellung.get("yoghurt").isEmpty()) {
-                    neueBestellung.put("yoghurt", ursprungsBestellung.get(s));
+                if (mss.get("yoghurt") == null || mss.get("yoghurt").isEmpty()) {
+                    map.put("yoghurt", mss.get(s));
                 }
 
             }
             if (s.equals("yoghurt")) {
-                String iceCreamValue = ursprungsBestellung.get("ice cream");
+                String iceCreamValue = mss.get("ice cream");
                 if (iceCreamValue == null || iceCreamValue.isEmpty() || iceCreamValue.isBlank()) {
-                    neueBestellung.put("yoghurt", ursprungsBestellung.get(s));
+                    map.put("yoghurt", mss.get(s));
                 } else {
-                    neueBestellung.put("yoghurt", iceCreamValue);
+                    map.put("yoghurt", iceCreamValue);
                 }
             }
 
         }
 
-        return neueBestellung;
+        return map;
 
 
     }

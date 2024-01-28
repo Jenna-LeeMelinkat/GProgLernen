@@ -16,6 +16,32 @@ import java.util.ArrayList;
 class S_L_BlöckeAusZeichenketten__List {
 
     public static List<String> blocks(String s) {
+        List<String> blocks = new ArrayList<>();
+
+        int length = s.length();
+        int count = 1;
+
+        for (int i = 0; i < length - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                count++;
+            } else {
+                if (count > 1) {
+                    blocks.add(s.substring(i - count + 1, i + 1));
+                }
+                count = 1;
+            }
+        }
+
+        if (count > 1) {
+            blocks.add(s.substring(length - count, length));
+        }
+
+        return blocks;
+    }
+
+    /*
+
+    public static List<String> blocks(String s) {
         List<String> ergebnis = new ArrayList<>();
         if (s.isEmpty()) {
 
@@ -43,7 +69,7 @@ class S_L_BlöckeAusZeichenketten__List {
 
         return ergebnis;
     }
-
+    */
 
     public static void main(String[] args) {
         List<String> blocks = blocks("Hello faaantastic world");
