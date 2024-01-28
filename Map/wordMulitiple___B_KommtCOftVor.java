@@ -18,7 +18,7 @@ import java.util.HashMap;
  *
  */
 
-public class wordMultiple_Map_DieListenEintraegeZaehlt {
+public class wordMulitiple___B_KommtCOftVor {
 
     public static Map<String, Boolean> wordMultiple(List<String> l) {
         Map<String, Boolean> map = new HashMap<>();
@@ -38,9 +38,18 @@ public class wordMultiple_Map_DieListenEintraegeZaehlt {
     }
 
     public static void main(String[] args) {
-        List<String> list = Arrays.asList("a", "b", "", "d", "c", "a", "c", "b");
+        List<String> list = Arrays.asList("a", "b", "a", "c", "b");
         Map<String, Boolean> multiple = wordMultiple(list);
         System.out.println(multiple);
+        // => { "a": true, "b": true, "c": false }
+
+        list = Arrays.asList("c", "b", "a");
+        System.out.println(wordMultiple(list));
+        // => { "a": false, "b": false, "c": false }
+
+        list = Arrays.asList("c", "c", "c");
+        System.out.println(wordMultiple(list));
+        // => { "c": true }
     }
 }
 

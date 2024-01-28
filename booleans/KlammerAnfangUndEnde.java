@@ -16,23 +16,20 @@ package booleans;
 public class KlammerAnfangUndEnde {
 
     public static boolean checkBrackets(String s) {
-        int length = s.length();
-        int countOpen = 0;
-        int countClose = 0;
+        int n = 0;
 
-        for ( int i = 0; i < length; i++) {
-            if (s.charAt(i) == '(') {
-                countOpen++;
-            }
-            if (s.charAt(i) == ')') {
-                countClose++;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                n++;
+            } else if (c == ')') {
+                n--;
+                if (n < 0) {
+                    return false;
+                }
             }
         }
-        if (countOpen == countClose) {
-            return true;
-        }
-        return false;
 
+        return n == 0;
     }
 
     public static void main(String[] args) {

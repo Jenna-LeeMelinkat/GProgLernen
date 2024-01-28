@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Balance_Listenmitte_BeideSummenSelbe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GProgLernen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Liste_LinksOderRechts_Ausgeben.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Middle_String_Ausgabe_MittleresZeichen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spanne_Liste_vonZahlZuZahl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Main.java" afterDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/MainPadPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -42,23 +35,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/Users/jenna-lee/IdeaProjects/GProgLernen",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jenna-lee/IdeaProjects/GProgLernen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notes/String" />
+      <recent name="$PROJECT_DIR$/Notes/Liste" />
+      <recent name="$PROJECT_DIR$/Notes/Array" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ToSort" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,11 +74,160 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="2500000" />
+      <workItem from="1706347983412" duration="28860000" />
+      <workItem from="1706429315164" duration="579000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1706359081149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706359081149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Array einfache Beispiele hinzugefügt">
+      <created>1706360964190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706360964191</updated>
+    </task>
+    <task id="LOCAL-00003" summary="einfache Beispiele für Maps und Listen">
+      <created>1706361834314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706361834315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="einfache Beispiele für Maps und Listen">
+      <created>1706361907115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706361907115</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ordnung machen">
+      <created>1706365204764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706365204764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ordnung machen">
+      <created>1706365240783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706365240783</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ordnung machen">
+      <created>1706367445980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706367445980</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ordnung machen">
+      <created>1706368824820</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706368824820</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ordnung machen">
+      <created>1706371381580</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706371381580</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pwdGen ohne StringBuilder">
+      <created>1706373896080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706373896081</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dividesSelf__Bool_Zahl_Schleife hat 100%">
+      <created>1706375514205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706375514205</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Äpfel neu">
+      <created>1706376974838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706376974838</updated>
+    </task>
+    <task id="LOCAL-00013" summary="StringBeispiele">
+      <created>1706377461553</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706377461553</updated>
+    </task>
+    <task id="LOCAL-00014" summary="einige Neue Sachen von ihm">
+      <created>1706378268701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378268701</updated>
+    </task>
+    <task id="LOCAL-00015" summary="joa">
+      <created>1706378538296</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378538296</updated>
+    </task>
+    <task id="LOCAL-00016" summary="joa">
+      <created>1706378555856</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378555857</updated>
+    </task>
+    <task id="LOCAL-00017" summary="joa">
+      <created>1706378937758</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378937758</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <MESSAGE value="Array einfache Beispiele hinzugefügt" />
+    <MESSAGE value="einfache Beispiele für Maps und Listen" />
+    <MESSAGE value="Ordnung machen" />
+    <MESSAGE value="pwdGen ohne StringBuilder" />
+    <MESSAGE value="dividesSelf__Bool_Zahl_Schleife hat 100%" />
+    <MESSAGE value="Äpfel neu" />
+    <MESSAGE value="StringBeispiele" />
+    <MESSAGE value="einige Neue Sachen von ihm" />
+    <MESSAGE value="joa" />
+    <option name="LAST_COMMIT_MESSAGE" value="joa" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

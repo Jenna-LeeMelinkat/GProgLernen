@@ -10,10 +10,10 @@ import java.util.Arrays;
 public class Reverse__Array {
 
     // Your turn
-    public static String[] reverse(String[] data) {
-        String[] reversed = new String[data.length];
-        int n = data.length;
-        for (String w : data) reversed[--n] = w;
+    public static String[] reverse(String[] array) {
+        String[] reversed = new String[array.length];
+        int n = array.length;
+        for (String w : array) reversed[--n] = w;
         return reversed;
     }
 

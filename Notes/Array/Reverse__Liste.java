@@ -22,9 +22,9 @@ public class Reverse__Liste {
     // [ggf. Post-Processing]
     // (2) Return
 
-    public static List<String> reverse(List<String> data) {
+    public static List<String> reverse(List<String> liste) {
         List<String> reversed = new ArrayList<String>();
-        Iterator<String> it = data.iterator();
+        Iterator<String> it = liste.iterator();
         while (it.hasNext()) reversed.add(0, it.next());
         return reversed;
     }

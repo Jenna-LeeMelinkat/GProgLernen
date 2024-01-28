@@ -29,7 +29,7 @@ import java.util.*;
  * Aufrufbeispiele finden Sie in der `main()`-Methode.
  * 
  */
-class MainPerson____WieOftNamen__MostPopular {
+class Person____MapMostPopular {
 
     public static Map<String, Integer> countNames(List<Person> persons) {
         Map<String, Integer> countedNames = new HashMap<>();
@@ -39,8 +39,70 @@ class MainPerson____WieOftNamen__MostPopular {
             countedNames.put(vorname, countedNames.getOrDefault(vorname, 0) + 1);
         }
 
-        Map<String, Integer> sortedMap = new LinkedHashMap<>();
+        // Sortieren der Map nach der Häufigkeit der Vornamen
+        Map<String, Integer> sortierteMap = new LinkedHashMap<>();
 
+        for (Map.Entry<String, Integer> eintrag : countedNames.entrySet()) {
+            // Wenn die sortierte Map leer ist, füge den Eintrag einfach hinzu
+            if (sortierteMap.isEmpty()) {
+                sortierteMap.put(eintrag.getKey(), eintrag.getValue());
+            } else {
+                boolean eingefügt = false;
+
+                // Durchlaufe die sortierte Map, um den richtigen Einfügepunkt zu finden
+                for (Map.Entry<String, Integer> sortierterEintrag : sortierteMap.entrySet()) {
+                    if (eintrag.getValue() < sortierterEintrag.getValue()) {
+                        // Füge den Eintrag an der richtigen Stelle ein
+                        Map<String, Integer> tempMap = new LinkedHashMap<>();
+                        for (Map.Entry<String, Integer> e : sortierteMap.entrySet()) {
+                            if (e.getKey().equals(sortierterEintrag.getKey())) {
+                                tempMap.put(eintrag.getKey(), eintrag.getValue());
+                                eingefügt = true;
+                            }
+                            tempMap.put(e.getKey(), e.getValue());
+                        }
+                        if (!eingefügt) {
+                            tempMap.put(eintrag.getKey(), eintrag.getValue());
+                        }
+                        sortierteMap.clear();
+                        sortierteMap.putAll(tempMap);
+                        break;
+                    }
+                }
+                // Wenn der Eintrag größer als alle bisherigen ist, am Ende einfügen
+                if (!eingefügt) {
+                    sortierteMap.put(eintrag.getKey(), eintrag.getValue());
+                }
+            }
+        }
+
+        return sortierteMap;
+
+        /* Sortieren der Map nach der Häufigkeit der Vornamen
+        Map<String, Integer> sortierteMap = new LinkedHashMap<>();
+
+        for (Map.Entry<String, Integer> eintrag : countedNames.entrySet()) {
+            boolean eingefügt = false;
+
+            // Durchlaufen der sortierten Map, um den richtigen Einfügepunkt zu finden
+            for (Map.Entry<String, Integer> uff : sortierteMap.entrySet()) {
+                // Eintrag an der richtigen Stelle einfügen
+                if (eintrag.getValue() < uff.getValue()) {
+                    sortierteMap.put(eintrag.getKey(), eintrag.getValue());
+                    eingefügt = true;
+                    break;
+                }
+            }
+
+            // Wenn der Eintrag größer als alle bisherigen ist, am Ende einfügen
+            if (!eingefügt) {
+                sortierteMap.put(eintrag.getKey(), eintrag.getValue());
+            }
+        }
+
+        return sortierteMap;
+
+        /*
         countedNames.entrySet()
                 // Verwende die Stream-API, um die Einträge der Map zu durchlaufen
 
@@ -57,6 +119,8 @@ class MainPerson____WieOftNamen__MostPopular {
 
 
         return sortedMap;
+
+         */
     }
 
     public static List<String> mostPopularNames(List<Person> persons) {

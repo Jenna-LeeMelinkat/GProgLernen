@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/umFormungen/Notizen" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/umFormungen/Notizen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/wordMultiple_Map_DieListenEintraegeZaehlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/wordMulitiple___B_KommtCOftVor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/Reverse__Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Array/Reverse__Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Array/Reverse__Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Array/Reverse__Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/MainPadPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/Person____MapMostPopular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booleans/KlammerAnfangUndEnde.java" beforeDir="false" afterPath="$PROJECT_DIR$/booleans/KlammerAnfangUndEnde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Map/wordMultiple_Map_DieListenEintraegeZaehlt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/Reverse__Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/Reverse__Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/Reverse__Liste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/Reverse__Liste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/umFormungen/Notizen" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/umFormungen/Notizen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/PadPerson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/Users/jenna-lee/IdeaProjects/GProgLernen",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jenna-lee/IdeaProjects/GProgLernen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -73,7 +85,8 @@
       <updated>1705769464683</updated>
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
-      <workItem from="1706347983412" duration="28757000" />
+      <workItem from="1706347983412" duration="28860000" />
+      <workItem from="1706429315164" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -187,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706378555857</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="joa">
+      <created>1706378937758</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378937758</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

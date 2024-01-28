@@ -1,6 +1,6 @@
 package ZweiKlassen.PadPerson;
 
-public class Main {
+public class MainPadPerson {
 
     public static void main(String[] args) {
         Person p = new Person("Max", "Mustermann", 2002);
