@@ -4,37 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/ProbeInt/Inti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/ProbeInt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/ProbeString/MainObjekt____ListeXListeOhneDoppelte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/ProbeString/Objekt.java" afterDir="false" />
+    <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="hopefully reicht das">
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Ls_Ls_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Palindrom/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Palindrom/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/List/S_L_blöckeAusZeichenketten__ListeMitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/S_Ls_blöckeAusZeichenketten__ListeMitCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/List/S_Ls__map_SortWords__StringZuSortierteListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Array/ArrayBeispiele.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Array/ArrayBeispiele.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Liste/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Liste/Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/Map/Maip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Map/Maip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/List/S_L_BlöckeAusZeichenketten__List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/List/S_L_BlöckeAusZeichenketten__List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/List/S_L_blöckeAusZeichenketten__ListeMitCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/List/S_Ls__map_SortWords__StringZuSortierteListe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/Mss_Mss_Topping___MapEintraegeAendern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/Mss_Mss_Topping___MapEintraegeAendern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_compact__SZuSMitWiederholungsZahl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_compact__SZuSMitWiederholungsZahl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Klausur/Aufgabe4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/ArrayBeispiele.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Array/ArrayBeispiele.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Liste/Liste$ListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Liste/Liste$ListExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Liste/Liste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Liste/Liste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Map/Maip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/Map/Maip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/Ls_Msb_wordMulitiple___B_KommtCOftVor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_Middle_String_Ausgabe_MittleresZeichen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/TupleListen/MainTuple_____ListXListe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/TupleListen/Tuple.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +82,7 @@
       <workItem from="1706259681332" duration="24837000" />
       <workItem from="1706347983412" duration="28860000" />
       <workItem from="1706429315164" duration="13526000" />
-      <workItem from="1706459075438" duration="9831000" />
+      <workItem from="1706459075438" duration="13238000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -280,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706461138644</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="hopefully reicht das">
+      <created>1706519554892</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706519554892</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +294,8 @@
     <MESSAGE value="StringBeispiele" />
     <MESSAGE value="einige Neue Sachen von ihm" />
     <MESSAGE value="joa" />
-    <option name="LAST_COMMIT_MESSAGE" value="joa" />
+    <MESSAGE value="hopefully reicht das" />
+    <option name="LAST_COMMIT_MESSAGE" value="hopefully reicht das" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
