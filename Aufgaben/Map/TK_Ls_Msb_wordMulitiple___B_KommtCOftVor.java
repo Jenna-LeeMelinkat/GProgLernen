@@ -18,7 +18,7 @@ import java.util.HashMap;
  *
  */
 
-public class Ls_Msb_wordMulitiple___B_KommtCOftVor {
+public class TK_Ls_Msb_wordMulitiple___B_KommtCOftVor {
 
     public static Map<String, Boolean> wordMultiple(List<String> l) {
         Map<String, Boolean> map = new HashMap<>();

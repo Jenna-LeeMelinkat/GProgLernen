@@ -25,6 +25,32 @@ import java.util.Map;
 class S_Msi_wordCount___Map_haeufigkeitSInS {
 
     public static Map<String, Integer> wordCount(String s) {
+        Map<String, Integer> map = new HashMap<>();
+
+        s = s.toLowerCase();
+
+
+        String[] words = s.split("\\s+");
+
+
+        for (String word : words) {
+
+            word = word.trim();
+
+
+            if (!word.isEmpty()) {
+
+                int count = map.getOrDefault(word, 0);
+
+                map.put(word, count + 1);
+            }
+        }
+
+        return map;
+    }
+
+    /*
+    public static Map<String, Integer> wordCount(String s) {
         Map<String, Integer> answer = new HashMap<>();
         String[] words = s.split("\\s+");
 
@@ -42,6 +68,8 @@ class S_Msi_wordCount___Map_haeufigkeitSInS {
 
         return answer;
     }
+    
+     */
 
     public static void main(String[] args) {
         Map<String, Integer> result = wordCount("aa BB cC Aa Cc Bb aA AA");

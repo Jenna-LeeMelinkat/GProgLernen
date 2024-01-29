@@ -49,11 +49,11 @@ import java.util.HashMap;
             if (s.isEmpty() || s.isBlank()) {
                 return map;
             }
-            String[] seperate = s.split(",");
-            for (String element : seperate) {
-                String[] getrennt = element.split("=");
-                map.put(Character.toUpperCase(getrennt[0].trim().charAt(0)), getrennt[1].trim());
-                map.put(Character.toLowerCase(getrennt[0].trim().charAt(0)), getrennt[1].trim());
+            String[] words = s.split(",");
+            for (String word : words) {
+                String[] ws = word.split("=");
+                map.put(Character.toUpperCase(ws[0].trim().charAt(0)), ws[1].trim());
+                map.put(Character.toLowerCase(ws[0].trim().charAt(0)), ws[1].trim());
             }
             return map;
         }

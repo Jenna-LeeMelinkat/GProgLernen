@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.LinkedList;
 import java.util.stream.Collectors;
+import java.util.Collections;
 
 
 public class Liste {
@@ -73,10 +74,45 @@ public class Liste {
                 String fruit = iterator.next();
                 System.out.println("Frucht: " + fruit);
             }
+
+            //---------------------------------------------------
+            //set
+
+            List<String> list = new ArrayList<>();
+            list.add("Apfel");
+            list.add("Banane");
+            list.add("Orange");
+
+            System.out.println("Liste vor dem Setzen: " + list);
+
+            // Das Element an Index 1 (Banane) wird durch "Kiwi" ersetzt
+            list.set(1, "Kiwi");
+
+            System.out.println("Liste nach dem Setzen: " + list);
+
+            // Sortieren der Liste
+            Collections.sort(list);
+            System.out.println("Sortierte Liste: " + list);
+
+            // Binäre Suche in der sortierten Liste
+            int index = Collections.binarySearch(list, "Apfel");
+            System.out.println("Index von 'Apfel' in der sortierten Liste: " + index);
+        }
+
         }
     }
 
+    /*
+    List<String> liste = new ArrayList<>();
+    String[] array = s.split("\\s");
+    for (String element : array) {
+    liste.add(element);
 
-
-
+    List<String> liste = new ArrayList<>(Arrays.asList(s.split("\\s")));
 }
+     */
+
+
+
+
+

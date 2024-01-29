@@ -21,10 +21,51 @@ import java.util.List;
  * Aufrufbeispiele finden Sie in der `main()`-Methode.
  *
  */
-class S_L_blöckeAusZeichenketten__ListeMitCount {
+class S_Ls_blöckeAusZeichenketten__ListeMitCount {
 
 
+    public static List<String> compacts(String s) {
+        List<String> ergebnis = new ArrayList<>();
 
+        int laenge = s.length();
+        int count = 1;
+
+        //erster Buchstabe
+        if (laenge > 0) {
+            if (s.charAt(0) != s.charAt(1)) {
+                ergebnis.add(s.substring(0,1));
+            } else {
+                count++;
+            }
+
+        }
+
+        //mittlere Buchstaben
+        for (int i = 1; i < laenge - 1; i++) {
+            if (s.charAt(i) != s.charAt(i + 1)) {
+
+                if (s.charAt(i) == s.charAt(i - 1)) {
+                    ergebnis.add(s.substring(i, i + 1) + count);
+                } else {
+                    ergebnis.add(s.substring(i, i + 1));
+                }
+                count = 1;
+            } else {
+                count++;
+            }
+        }
+        // letzten Buchstaben prüfen
+        if (laenge > 0) {
+            if (s.charAt(laenge - 2) != s.charAt(laenge - 1)) {
+                ergebnis.add(s.substring(laenge - 1));
+            } else {
+                ergebnis.add(s.substring(laenge - 1) + count);
+            }
+        }
+        return ergebnis;
+    }
+
+    /*
     public static List<String> compacts(String s) {
         List<String> liste = new ArrayList<>();
         if (s.isEmpty()) {
@@ -53,7 +94,7 @@ class S_L_blöckeAusZeichenketten__ListeMitCount {
 
         return liste;
     }
-
+    */
 
 
     public static void main(String[] args) {

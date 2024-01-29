@@ -1,9 +1,39 @@
 package Notes.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import java.awt.image.LookupOp;
 
 public class ArrayBeispiele {
+
+    public static void mammut(String[] args) {
+        // Beispiel für ein Array von ints
+        int[] array = {5, 2, 9, 1, 7};
+
+        // Sortieren des Arrays
+        Arrays.sort(array);
+        System.out.println("Sortiertes Array: " + Arrays.toString(array));
+
+        // Binäre Suche im sortierten Array
+        int index = Arrays.binarySearch(array, 9);
+        System.out.println("Index von '9' im sortierten Array: " + index);
+
+        String[] strings = {"Banane", "Apfel", "Orange"};
+
+        // Sortieren der Strings im Array
+        Arrays.sort(strings);
+        System.out.println("Sortierte Strings: " + Arrays.toString(strings));
+
+        // Binäre Suche nach einem String im sortierten Array
+        int x = Arrays.binarySearch(strings, "Apfel");
+        System.out.println("Index von 'Apfel' im sortierten Array: " + x);
+
+
+
+
+    }
+
+
 
     ArrayList<String> namenListe = new ArrayList<String>();
 

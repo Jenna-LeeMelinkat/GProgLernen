@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="joa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/PadPerson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/PadPerson/MainPadPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZweiKlassen/Personen/MainPerson____WieOftNamen__MostPopular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/List/S_L_blöckeAusZeichenketten__ListeMitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/S_Ls_blöckeAusZeichenketten__ListeMitCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Mcs_BuchstabenDurchZahlenErsetzen__Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Msi_wordCount___Map_haeufigkeitSInS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/String/Build/S_S_noDuplicates____SOhneDoppelte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/Liste/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/Liste/Liste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +78,8 @@
       <workItem from="1705769467975" duration="3329000" />
       <workItem from="1706259681332" duration="24837000" />
       <workItem from="1706347983412" duration="28860000" />
-      <workItem from="1706429315164" duration="579000" />
+      <workItem from="1706429315164" duration="13526000" />
+      <workItem from="1706459075438" duration="6238000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -196,7 +200,63 @@
       <option name="project" value="LOCAL" />
       <updated>1706378937758</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="joa">
+      <created>1706432149979</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706432149979</updated>
+    </task>
+    <task id="LOCAL-00019" summary="joa">
+      <created>1706432162646</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706432162646</updated>
+    </task>
+    <task id="LOCAL-00020" summary="joa">
+      <created>1706444154296</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706444154296</updated>
+    </task>
+    <task id="LOCAL-00021" summary="joa">
+      <created>1706451867651</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706451867651</updated>
+    </task>
+    <task id="LOCAL-00022" summary="joa">
+      <created>1706451983584</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706451983584</updated>
+    </task>
+    <task id="LOCAL-00023" summary="joa">
+      <created>1706452531891</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706452531891</updated>
+    </task>
+    <task id="LOCAL-00024" summary="joa">
+      <created>1706452541802</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706452541802</updated>
+    </task>
+    <task id="LOCAL-00025" summary="joa">
+      <created>1706461138644</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706461138644</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,10 +1,8 @@
 package Aufgaben.List;
 
 import java.util.List;
-import java.util.TreeMap;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Map;
+
 /**
  *
  * ## `sortWords()`
@@ -26,7 +24,34 @@ import java.util.Map;
  *
  */
 
-public class S_Ls__map_SortWords__StringZuSortierteListe {
+public class Main {
+
+    public static List<String> sortWords(String s) {
+        List<String> ergebnis = new ArrayList<>();
+
+        // Wörter extrahieren und eindeutige Wörter identifizieren
+        String[] words = s.split("\\s+");
+        for (String word : words) {
+            if (!word.isEmpty() && !word.isBlank() && !ergebnis.contains(word)) {
+                ergebnis.add(word);
+            }
+
+        }
+
+        // Alphabetisches Sortieren der eindeutigen Wörter
+        for (int i = 0; i < ergebnis.size() - 1; i++) {
+            for (int j = i + 1; j < ergebnis.size(); j++) {
+                if (ergebnis.get(i).compareTo(ergebnis.get(j)) > 0) {
+                    String temp = ergebnis.get(i);
+                    ergebnis.set(i, ergebnis.get(j));
+                    ergebnis.set(j, temp);
+                }
+            }
+        }
+
+        return ergebnis;
+    }
+    /*
 
 
     public static List<String> sortWords(String input) {
@@ -45,6 +70,8 @@ public class S_Ls__map_SortWords__StringZuSortierteListe {
 
         return sortedWordsList;
     }
+
+     */
 
 
     public static void main(String[] args) {

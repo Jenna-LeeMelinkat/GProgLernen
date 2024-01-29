@@ -14,19 +14,21 @@ public class S_S_noDuplicates____SOhneDoppelte {
 
     public static String noDuplicates(String s) {
         s = s.trim();
-        StringBuilder result = new StringBuilder();
+        int laenge = s.length();
 
-        if (s.length() > 0) {
-            result.append(s.charAt(0));
+        StringBuilder ergebnis = new StringBuilder();
 
-            for (int i = 1; i < s.length(); i++) {
-                if (s.charAt(i) != s.charAt(i - 1)) {
-                    result.append(s.charAt(i));
-                }
+        if (laenge > 0) {
+            ergebnis.append(s.charAt(0));
+        }
+
+        for (int i = 1; i < laenge; i++) {
+            if (s.charAt(i) != s.charAt(i - 1)) {
+                ergebnis.append(s.charAt(i));
             }
         }
 
-        return result.toString();
+        return ergebnis.toString();
     }
 
     public static void main(String[] args) {

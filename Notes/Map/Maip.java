@@ -2,6 +2,9 @@ package Notes.Map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
 
 public class Maip {
     public static void main(String[] args) {
@@ -48,5 +51,21 @@ public class Maip {
         System.out.println("Das Alter von David ist: " + alterswertDavid); // Ausgabe: Das Alter von David ist: 0, da "David" nicht in der Map vorhanden ist
 
 
+    }
+
+    public static void puff(String[] args) {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(3, "Banane");
+        map.put(1, "Apfel");
+        map.put(2, "Orange");
+
+        // Konvertiere die Schlüssel der Map in eine sortierte Liste
+        List<Integer> keys = new ArrayList<>(map.keySet());
+        Collections.sort(keys);
+        System.out.println("Sortierte Schlüssel: " + keys);
+
+        // Binäre Suche in der sortierten Liste der Schlüssel
+        int index = Collections.binarySearch(keys, 2);
+        System.out.println("Index von '2' in den sortierten Schlüsseln: " + index);
     }
 }

@@ -12,7 +12,7 @@ package Aufgaben.String.Build;
  * Aufruf-Beispiele finden Sie in der `main()`-Methode.
  *
  */
-public class S_S_Middle_String_Ausgabe_MittleresZeichen {
+public class TK_S_S_Middle_String_Ausgabe_MittleresZeichen {
 
     public static String middle(String s) {
         int length = s.length();
