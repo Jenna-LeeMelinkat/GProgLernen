@@ -45,10 +45,12 @@ public class MainApple {
 
     // groupByColor() GROUPING - PATTERN
     public static Map<String, List<Apple>> groupByColor(List<Apple> apples) {
-        Map<String, List<Apple>> grouped = new TreeMap<>();             // Aggregat
-        for (Apple a : apples) grouped.put(a.color, new ArrayList<>()); // Preprocessing
-        for (Apple a : apples) grouped.get(a.color).add(a);             // Loop + Logik
-        return grouped;                                                 // Return
+        Map<String, List<Apple>> gmap = new TreeMap<>();             // Aggregat
+        for (Apple a : apples)
+            gmap.put(a.color, new ArrayList<>()); // Preprocessing
+        for (Apple a : apples)
+            gmap.get(a.color).add(a);             // Loop + Logik
+        return gmap;                                                 // Return
     }
 
     public static void main(String[] args) {

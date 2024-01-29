@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="hopefully reicht das">
-      <change beforePath="$PROJECT_DIR$/Aufgaben/Arrais/Li_S_plusEveryNth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/Li_S_plusEveryNth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Klausur/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/Klausur/countDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Balance_Listenmitte_BeideSummenSelbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Balance_Listenmitte_BeideSummenSelbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Spanne_Liste_vonZahlZuZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/K_Li_I_Spanne_Liste_vonZahlZuZahl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/Map/S_Mii_U_S_Mil_countGroupWordLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Map/S_Mii_U_S_Mil_countGroupWordLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Äpfel/MainApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Äpfel/MainApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Arrais/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/S_Mii_U_S_Mil_countGroupWordLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/Äpfel/MainApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/Äpfel/MainApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Notes/String/StringBeipiele.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GProgLernen/Notes/String/StringBeipiele.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +84,7 @@
       <workItem from="1706259681332" duration="24837000" />
       <workItem from="1706347983412" duration="28860000" />
       <workItem from="1706429315164" duration="13526000" />
-      <workItem from="1706459075438" duration="13729000" />
+      <workItem from="1706459075438" duration="18827000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -265,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706524377220</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="hopefully reicht das">
+      <created>1706526042484</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706526042484</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

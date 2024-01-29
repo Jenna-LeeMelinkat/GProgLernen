@@ -15,29 +15,46 @@ public class S_Mii_U_S_Mil_countGroupWordLength {
     //     (4) Logik
     // [ggf. Postprocessing]
     // (2) Return Aggregat
-    public static Map<Integer, Integer> countWordLengths(String content) {
-        Map<Integer, Integer> counted = new TreeMap<>();
-        for (String word : content.split(" +")) {
-            int key = word.length();
-            counted.put(key, counted.getOrDefault(key, 0) + 1);
+    public static Map<Integer, Integer> countWordLengths(String inhalt) {
+        // Erstelle eine TreeMap, um die Längen der Wörter zu zählen
+        Map<Integer, Integer> gezaehlt = new TreeMap<>();
+
+        // Teile den Inhalt in Wörter auf und durchlaufe jedes Wort
+        for (String wort : inhalt.split(" +")) {
+            // Bestimme die Länge des aktuellen Wortes
+            int schluessel = wort.length();
+
+            // Aktualisiere den Zähler für die Länge des Wortes
+            // Wenn der Schlüssel bereits vorhanden ist, erhöhe den Zähler um 1, ansonsten setze den Zähler auf 1
+            gezaehlt.put(schluessel, gezaehlt.getOrDefault(schluessel, 0) + 1);
         }
-        return counted;
+
+        // Gib die Map zurück, die die Längen der Wörter mit ihrer Häufigkeit zählt
+        return gezaehlt;
     }
 
-    public static Map<Integer, List<String>> groupByWordLengths(String content) {
-        Map<Integer, List<String>> grouped = new TreeMap<>();
-        String[] words = content.split(" +");
+    public static Map<Integer, List<String>> groupByWordLengths(String s) {
+        // Erstelle eine TreeMap, um die Längen der Wörter zu gruppieren
+        Map<Integer, List<String>> gmap = new TreeMap<>();
+
+        // Teile den Eingabestring in Wörter auf
+        String[] words = s.split(" +");
+
+        // Durchlaufe jedes Wort im Array
         for (String word : words) {
-            if (!grouped.containsKey(word.length())) grouped.put(word.length(), new ArrayList<>());
-            grouped.get(word.length()).add(word);
-            // System.out.println(word + " => " + grouped); // Um schrittweisen Aufbau auszugeben
+            // Überprüfe, ob die Länge des Wortes bereits als Schlüssel in der Map existiert
+            if (!gmap.containsKey(word.length())) {
+                // Wenn nicht, füge einen neuen Schlüssel mit der Länge des Wortes hinzu
+                // und initialisiere die Werteliste als eine leere ArrayList
+                gmap.put(word.length(), new ArrayList<>());
+            }
+
+            // Füge das aktuelle Wort zur Liste der Wörter mit der entsprechenden Länge hinzu
+            gmap.get(word.length()).add(word);
         }
 
-        // Oder Variante: Erst keys anlegen, dann einfügen
-        // grouped = new TreeMap<>();
-        // for (Aufgaben.String word : words) grouped.put(word.length(), new ArrayList<>());
-        // for (Aufgaben.String word : words) grouped.get(word.length()).add(word);
-        return grouped;
+        // Gib die Map zurück, die die Wörter nach ihrer Länge gruppiert
+        return gmap;
     }
 
     /**

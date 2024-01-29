@@ -34,26 +34,26 @@ schon entwickelt haben.
 
 public class K_Li_I_Balance_Listenmitte_BeideSummenSelbe {
 
-    public static int balance(List<Integer> values){
+    public static int balance(List<Integer> liste){
         int summe = 0;
 
-        for(int zahl : values) {
+        for(int zahl : liste) {
             summe += zahl;
         }
 
         int linkeSumme = 0;
 
-        for (int i = 0; i < values.size(); i++) {
-            int aktuelleZahl = values.get(i);
+        for (int i = 0; i < liste.size(); i++) {
+            int aktuelleZahl = liste.get(i);
             linkeSumme += aktuelleZahl;
             int rechteSumme = summe - linkeSumme;
 
             if (linkeSumme == rechteSumme) {
-                return i + 1; // Balancepunkt gefunden
+                return i + 1;
             }
         }
 
-        return -1; // Kein Balancepunkt gefunden
+        return -1;
     }
 
     public static void main(String[] args) {

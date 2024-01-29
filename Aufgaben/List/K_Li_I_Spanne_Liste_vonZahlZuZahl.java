@@ -19,26 +19,25 @@ die die größte Spanne zurück gibt, die in einer Liste vorkommt.
 public class K_Li_I_Spanne_Liste_vonZahlZuZahl {
 
     // Methode zur Berechnung der größten Spanne
-    public static int spanne(List<Integer> werte) {
+    public static int spanne(List<Integer> liste) {
         int spanne = 0; // Initialisiere die größte Spanne mit 0
 
-        // Iteriere durch die Liste der Werte
-        for(int i = 0; i < werte.size(); i++) {
-            int aktuelleZahl = werte.get(i); // Erhalte die aktuelle Zahl aus der Liste
+        for(int i = 0; i < liste.size(); i++) {
+            int aktuelleZahl = liste.get(i);
 
-            int links = werte.indexOf(aktuelleZahl); // Index des ersten Vorkommens der Zahl
-            int rechts = werte.lastIndexOf(aktuelleZahl); // Index des letzten Vorkommens der Zahl
+            int links = liste.indexOf(aktuelleZahl);
+            int rechts = liste.lastIndexOf(aktuelleZahl);
 
-            // Berechne die Spanne für die aktuelle Zahl
+
             int aktuelleSpanne = rechts - links + 1;
 
-            // Überprüfe, ob die aktuelle Spanne größer als die bisher größte Spanne ist
+
             if(aktuelleSpanne > spanne) {
-                spanne = aktuelleSpanne; // Aktualisiere die größte Spanne
+                spanne = aktuelleSpanne;
             }
         }
 
-        // Gib die größte Spanne zurück
+
         return spanne;
     }
 
