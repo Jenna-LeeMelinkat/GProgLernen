@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2b4f1f-ed22-461f-af04-d3d9cd447cfc" name="Changes" comment="hopefully reicht das">
-      <change afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Ls_Ls_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/Arrais/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Palindrom/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben/ZweiKlassen/Palindrom/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/Map/Ls_Msb_wordMulitiple___B_KommtCOftVor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/String/Build/S_S_Middle_String_Ausgabe_MittleresZeichen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/TupleListen/MainTuple_____ListXListe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GProgLernen/Aufgaben/ZweiKlassen/TupleListen/Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/Arrais/Li_S_plusEveryNth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/List/Li_S_plusEveryNth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,7 @@
       <workItem from="1706259681332" duration="24837000" />
       <workItem from="1706347983412" duration="28860000" />
       <workItem from="1706429315164" duration="13526000" />
-      <workItem from="1706459075438" duration="13238000" />
+      <workItem from="1706459075438" duration="13729000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1706359081149</created>
@@ -266,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706519554892</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="hopefully reicht das">
+      <created>1706524377220</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706524377220</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

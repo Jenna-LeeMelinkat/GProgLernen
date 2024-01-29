@@ -6,6 +6,11 @@ public class StringBeipiele {
     String str = "Hallo Welt";
     int length = str.length(); // length ist 10
 
+    //isDigit()
+    char ch = str.charAt(1);
+    boolean jaein = Character.isDigit(ch);
+
+
     //-------------------------------------------------------------
 
     //startsWith()
